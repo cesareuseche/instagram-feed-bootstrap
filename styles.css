@@ -1,0 +1,42 @@
+
+.navbar-light .navbar-brand{
+    margin: 0 64px;
+}
+
+.navbar-expand-md .navbar-collapse {
+    margin: 0 64px;
+}
+
+.fa-instagram{
+  color: #949394 !Important;
+  display: inline-flex;
+  font-size: 25px;
+  flex-wrap: wrap;
+  gap: 6px !important;
+}
+
+.btn-primary{  
+    color: #fff;
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+.btn-primary:hover {
+    color: #28a745;
+    background-color: transparent;
+    border-color: #28a745;
+}
+
+.btn-secondary:hover{
+    color:#6c757d;
+    background-color: transparent;
+    border-color: #6c757d;
+}
+
+.icons{
+    margin-right: auto !important;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 10px;
+}
