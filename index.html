@@ -9,7 +9,7 @@
     <title>Instagram-Feed</title>
 </head>
 <header>
-  <nav class="navbar navbar-expand-md navbar-light bg-light">
+  <nav class="navbar navbar-expand-md fixed-top navbar-light bg-light">
       <a class=" fab fa-instagram navbar-brand" href="#">Instagram</a>
        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
          <span class="navbar-toggler-icon"></span>
@@ -18,7 +18,7 @@
                <ul class="navbar-nav ml-auto">
                  <li class="nav-item">
                 <!-- Button HTML (to Trigger Modal) -->
-                <a href="#myModal" role="button" class="btn btn-success" data-toggle="modal">Create a new post</a>
+                <a href="#myModal" role="button" class="btn btn-success" data-toggle="modal" data-backdrop="false" >Create a new post</a>
                  <!-- Modal HTML -->
                 <div id="myModal" class="modal fade" tabindex="-1">
                    <div class="modal-dialog">
@@ -61,17 +61,102 @@
     </nav>
 </header>
 <body>
+      <nav class="navbar navbar-light bg-white icons-view section-padding">
+          <button class="btn btn-sm btn-outline-secondary"><i class="fas fa-square"></i></button>
+          <button class="btn btn-sm btn-outline-secondary"><i class="fas fa-th"></i></button>
+      </nav>
   <div class="container-fluid">
     <div class="row justify-content-center">
           <div class="col-md-6 col-sm-6 col-xs-6">
              <div class="post">
-               <div class="ml-2 d-flex justify-content-start align-items-center">
-                 <h4>First photo</h4>
+               <div class="ml-2 p-1 d-flex justify-content-start align-items-center date">
+                 <h4>First photo</h4><span>11/2</span>
                </div>
-               <div class="mr-2 d-flex justify-content-end align-items-start">
-                <span>11/2</span>
-              </div>
-                <img src="http://placeimg.com/640/360/any" class="img-fluid" alt="Responsive image">
+                <img src="https://www.fillmurray.com/640/360 " class="img-fluid" alt="Responsive image">
+                <div class="row ml-2 justify-content-start">
+                   <div class="col-md-12 col-sm-12 col-xs-12">
+                      <h5>23 Likes</h5>
+                      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis fugit soluta tenetur earum temporibus repellat omnis ullam quibusdam laborum odit!</p>
+                   </div>
+                </div>
+                <div class="row ml-1">
+                  <div class="col-md-3 d-flex flex-nowrap justify-content-start">
+                     <i class="far fa-heart"></i>
+                     <h6>Comments...</h6>
+                  </div>
+                       <div class="col-md-9 d-flex justify-content-end">
+                         <i class="fas fa-ellipsis-v"></i>
+                       </div>
+                  </div>
+               </div>
+             </div>
+         </div>
+     </div>
+  </div>
+  <div class="container-fluid">
+    <div class="row justify-content-center">
+          <div class="col-md-6 col-sm-6 col-xs-6">
+             <div class="post">
+               <div class="ml-2 p-1 d-flex justify-content-start align-items-center date">
+                 <h4>Second photo</h4><span>11/3</span>
+               </div>
+                <img src="https://loremflickr.com/640/360" class="img-fluid" alt="Responsive image">
+                <div class="row ml-2 justify-content-start">
+                   <div class="col-md-12 col-sm-12 col-xs-12">
+                      <h5>23 Likes</h5>
+                      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis fugit soluta tenetur earum temporibus repellat omnis ullam quibusdam laborum odit!</p>
+                   </div>
+                </div>
+                <div class="row ml-1">
+                  <div class="col-md-3 d-flex flex-nowrap justify-content-start">
+                     <i class="far fa-heart"></i>
+                     <h6>Comments...</h6>
+                  </div>
+                       <div class="col-md-9 d-flex justify-content-end">
+                         <i class="fas fa-ellipsis-v"></i>
+                       </div>
+                  </div>
+               </div>
+             </div>
+         </div>
+     </div>
+  </div>
+  <div class="container-fluid">
+    <div class="row justify-content-center">
+          <div class="col-md-6 col-sm-6 col-xs-6">
+             <div class="post">
+               <div class="ml-2 p-1 d-flex justify-content-start align-items-center date">
+                 <h4>Third photo</h4><span>11/3</span>
+               </div>
+                <img src="https://baconmockup.com/640/360" class="img-fluid" alt="Responsive image">
+                <div class="row ml-2 justify-content-start">
+                   <div class="col-md-12 col-sm-12 col-xs-12">
+                      <h5>23 Likes</h5>
+                      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis fugit soluta tenetur earum temporibus repellat omnis ullam quibusdam laborum odit!</p>
+                   </div>
+                </div>
+                <div class="row ml-1">
+                  <div class="col-md-3 d-flex flex-nowrap justify-content-start">
+                     <i class="far fa-heart"></i>
+                     <h6>Comments...</h6>
+                  </div>
+                       <div class="col-md-9 d-flex justify-content-end">
+                         <i class="fas fa-ellipsis-v"></i>
+                       </div>
+                  </div>
+               </div>
+             </div>
+         </div>
+     </div>
+  </div>
+  <div class="container-fluid">
+    <div class="row justify-content-center">
+          <div class="col-md-6 col-sm-6 col-xs-6">
+             <div class="post">
+               <div class="ml-2 p-1 d-flex justify-content-start align-items-center date">
+                 <h4>Fourth Photo</h4><span>11/5</span>
+               </div>
+                <img src="https://placebeard.it/640x360" class="img-fluid" alt="Responsive image">
                 <div class="row ml-2 justify-content-start">
                    <div class="col-md-12 col-sm-12 col-xs-12">
                       <h5>23 Likes</h5>
@@ -96,13 +181,10 @@
     <div class="row justify-content-center">
        <div class="col-md-6 col-sm-6 col-xs-6">
              <div class="post">
-               <div class="ml-2 d-flex justify-content-start align-items-center">
-                 <h4>First photo</h4>
+               <div class="ml-2 p-1 d-flex justify-content-start align-items-center date">
+                 <h4>Fifth Photo</h4><span>11/5</span>
                </div>
-               <div class="mr-2 d-flex justify-content-end align-items-start">
-                  <span>11/2</span>
-                </div>
-                <img src="http://lorempixel.com/640/360" class="img-fluid" alt="Responsive image">
+                <img src="http://placeimg.com/640/360/any" class="img-fluid" alt="Responsive image">
                 <div class="row ml-2 justify-content-start">
                    <div class="col-md-12 col-sm-12 col-xs-12">
                       <h5>23 Likes</h5>
@@ -114,7 +196,7 @@
                      <i class="far fa-heart"></i>
                      <h6>Comments...</h6>
                   </div>
-                     <div class="col-md-9 d-flex justify-content-end">
+                     <div class="col-md-9 col-xs-6 col-md-4 d-flex justify-content-end">
                       <i class="fas fa-ellipsis-v"></i>
                    </div>
                      </div>
@@ -123,6 +205,118 @@
              </div>
          </div>
      </div>
+     <div class="container-fluid">
+      <div class="row justify-content-center">
+         <div class="col-md-6 col-sm-6 col-xs-6">
+               <div class="post">
+                 <div class="ml-2 p-1 d-flex justify-content-start align-items-center date">
+                   <h4>Sixth Photo</h4><span>11/6</span>
+                 </div>
+                  <img src="https://picsum.photos/640/360.jpg" class="img-fluid" alt="Responsive image">
+                  <div class="row ml-2 justify-content-start">
+                     <div class="col-md-12 col-sm-12 col-xs-12">
+                        <h5>23 Likes</h5>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis fugit soluta tenetur earum temporibus repellat omnis ullam quibusdam laborum odit!</p>
+                     </div>
+                  </div>
+                  <div class="row ml-1">
+                    <div class="col-md-3 d-flex flex-nowrap justify-content-start">
+                       <i class="far fa-heart"></i>
+                       <h6>Comments...</h6>
+                    </div>
+                       <div class="col-md-9 d-flex justify-content-end">
+                        <i class="fas fa-ellipsis-v"></i>
+                     </div>
+                       </div>
+                    </div>
+                 </div>
+               </div>
+           </div>
+       </div>
+       <div class="container-fluid">
+        <div class="row justify-content-center">
+           <div class="col-md-6 col-sm-6 col-xs-6">
+                 <div class="post">
+                   <div class="ml-2 p-1 d-flex justify-content-start align-items-center date">
+                     <h4>Seventh Photo</h4><span>11/2</span>
+                   </div>
+                    <img src="https://picsum.photos/640/360" class="img-fluid" alt="Responsive image">
+                    <div class="row ml-2 justify-content-start">
+                       <div class="col-md-12 col-sm-12 col-xs-12">
+                          <h5>23 Likes</h5>
+                          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis fugit soluta tenetur earum temporibus repellat omnis ullam quibusdam laborum odit!</p>
+                       </div>
+                    </div>
+                    <div class="row ml-1">
+                      <div class="col-md-3 d-flex flex-nowrap justify-content-start">
+                         <i class="far fa-heart"></i>
+                         <h6>Comments...</h6>
+                      </div>
+                         <div class="col-md-9 d-flex justify-content-end">
+                          <i class="fas fa-ellipsis-v"></i>
+                       </div>
+                         </div>
+                      </div>
+                   </div>
+                 </div>
+             </div>
+         </div>
+       <div class="container-fluid">
+        <div class="row justify-content-center">
+           <div class="col-md-6 col-sm-6 col-xs-6">
+                 <div class="post">
+                   <div class="ml-2 p-1 d-flex justify-content-start align-items-center date">
+                     <h4>Eighth Photo</h4><span>11/2</span>
+                   </div>
+                    <img src="https://www.stevensegallery.com/640/360" class="img-fluid" alt="Responsive image">
+                    <div class="row ml-2 justify-content-start">
+                       <div class="col-md-12 col-sm-12 col-xs-12">
+                          <h5>23 Likes</h5>
+                          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis fugit soluta tenetur earum temporibus repellat omnis ullam quibusdam laborum odit!</p>
+                       </div>
+                    </div>
+                    <div class="row ml-1">
+                      <div class="col-md-3 d-flex flex-nowrap justify-content-start">
+                         <i class="far fa-heart"></i>
+                         <h6>Comments...</h6>
+                      </div>
+                         <div class="col-md-9 d-flex justify-content-end">
+                          <i class="fas fa-ellipsis-v"></i>
+                       </div>
+                         </div>
+                      </div>
+                   </div>
+                 </div>
+             </div>
+         </div>
+       <div class="container-fluid">
+        <div class="row justify-content-center">
+           <div class="col-md-6 col-sm-6 col-xs-6">
+                 <div class="post">
+                   <div class="ml-2 p-1 d-flex justify-content-start align-items-center date">
+                     <h4>Ninth Photo</h4><span>11/2</span>
+                   </div>
+                    <img src="https://www.placecage.com/640/360" class="img-fluid" alt="Responsive image">
+                    <div class="row ml-2 justify-content-start">
+                       <div class="col-md-12 col-sm-12 col-xs-12">
+                          <h5>23 Likes</h5>
+                          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis fugit soluta tenetur earum temporibus repellat omnis ullam quibusdam laborum odit!</p>
+                       </div>
+                    </div>
+                    <div class="row ml-1">
+                      <div class="col-md-3 d-flex flex-nowrap justify-content-start">
+                         <i class="far fa-heart"></i>
+                         <h6>Comments...</h6>
+                      </div>
+                         <div class="col-md-9 d-flex justify-content-end">
+                          <i class="fas fa-ellipsis-v"></i>
+                       </div>
+                         </div>
+                      </div>
+                   </div>
+                 </div>
+             </div>
+         </div>
   </div>
 </body>
 

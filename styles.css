@@ -61,3 +61,24 @@ h6{
     justify-content: flex-end;
     gap: 10px;
 }
+
+.icons-view{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+}
+
+.fa-ellipsis-v{
+    padding-right: 10px;
+    color: #c0c0c0;
+}
+
+.section-padding{
+   padding-top: 80px;
+}
+
+.date h4{
+    width: 92%;
+   
+}
