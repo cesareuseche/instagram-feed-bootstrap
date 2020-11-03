@@ -1,4 +1,19 @@
 
+body{
+    background-color: #C0C0C0;
+}
+
+h5{
+    margin-top: 8px;
+}
+
+h6{
+    color: #c0c0c0;
+}
+.post{
+    background-color: #fff;
+    margin: 30px
+}
 .navbar-light .navbar-brand{
     margin: 0 64px;
 }
@@ -9,9 +24,9 @@
 
 .fa-instagram{
   color: #949394 !Important;
-  display: inline-flex;
+  display: flex;
   font-size: 25px;
-  flex-wrap: wrap;
+  flex-flow: row wrap;
   gap: 6px !important;
 }
 
@@ -31,6 +46,12 @@
     color:#6c757d;
     background-color: transparent;
     border-color: #6c757d;
+}
+
+.fa-heart{
+    font-size: 20px;
+    padding-right: 15px;
+    color: #c0c0c0;
 }
 
 .icons{
